@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+
+h1 {
+  color: #e04141;
+  font-family: 'Montserrat bold', sans-serif;
+}
+
+h2, p, table {
+  font-family: 'Montserrat regular 400', sans-serif;
+  color: rgb(100, 100, 100);
+}
+
+h3 {
+    color: rgb(100, 100, 100);
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(150, 150, 150);
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: #e04141;
+  font-weight:bold;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin: 15px auto;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-movies {
+  background: white;
+  padding: 15px;
+  margin: 15px auto;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+}
+
+#avatar {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.img-movie {
+  width: 150px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+tr {
+  text-align: justify;
+}
+
+.btn-red {
+    background-color: #DD5555;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.btn-red:hover {
+  color: white;
+}
